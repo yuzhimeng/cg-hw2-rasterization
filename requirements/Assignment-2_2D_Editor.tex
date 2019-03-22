@@ -26,9 +26,9 @@
 \usepackage{fancyhdr,graphicx,lastpage}% http://ctan.org/pkg/{fancyhdr,graphicx,lastpage}
 \fancypagestyle{plain}{
   \fancyhf{}% Clear header/footer
-  \fancyhead[L]{CSCI-GA.2270-001 - Computer Graphics}% Right header
-  \fancyhead[R]{\includegraphics[height=20pt]{nyu.pdf}}% Right header
-  \fancyfoot[L]{Daniele Panozzo}% Left footer
+  \fancyhead[L]{cg-2019, steal from Computer Graphics of Daniele Panozzo}% Right header
+  %\fancyhead[R]{\includegraphics[height=20pt]{nyu.pdf}}% Right header
+  \fancyfoot[L]{Junjie Cao}% Left footer
   \fancyfoot[R]{\thepage}% Right footer
 }
 \pagestyle{plain}% Set page style to plain.
@@ -62,11 +62,16 @@ In all exercises you will use OpenGL 3.3 with GLSL version 150.
 \subsection*{Submission}
 
 \begin{enumerate}
-\item Follow the link sent by assistant to accept assignment and create repository.
+\item Follow the link to create your repository in \url{https://classroom.github.com/g/SHNFK4PN} with starter code. :)
+\item Checkout the repository to your local folder, such as e:/work/cg-hw2. 
+\item Make a new folder "build", so you will get "e:/work/cg-hw2/build"
+\item Put source code of eigen, glfw and glew according to the specified directories in CMakeLists.txt
+\item run cmake to generate a visual studio solution in the folder "build". Ignore messages about "Could NOT find Vulkan". We do not need it in this homework.
+\item open the solution, compile, run, and see the output images. 
+If there are some link errors, such as error LNK2001: unresolved external symbol \(\_\_\)glewBindBuffer, try to link with \(lib\\Debug\\libglew32d.lib\) instead of \(lib\\Debug\\glew32d.lib\).
 \item Modify the code following the assignment instructions
-\item Set up Travis-ci badge.
-\item Add a report in pdf format that contains what you did with a screenshot for each task
-\item Commit and push the code into the repository before the deadline.
+\item Add a readme in markdown format as a report of what you did with a screen-shot for each task
+\item Commit and push the code into the repository before deadline.
 \end{enumerate}
 
 
