@@ -1,4 +1,6 @@
 
 build/
-
+\.vscode/
 \.DS_Store
+
+src/main - 副本\.cpp
