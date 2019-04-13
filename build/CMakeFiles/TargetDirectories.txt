@@ -1,0 +1,15 @@
+D:/Code/C++/cg-hw2-rasterization/build/CMakeFiles/INSTALL.dir
+D:/Code/C++/cg-hw2-rasterization/build/CMakeFiles/Assignment2_bin.dir
+D:/Code/C++/cg-hw2-rasterization/build/CMakeFiles/ALL_BUILD.dir
+D:/Code/C++/cg-hw2-rasterization/build/CMakeFiles/ZERO_CHECK.dir
+D:/Code/C++/cg-hw2-rasterization/build/glfw/CMakeFiles/uninstall.dir
+D:/Code/C++/cg-hw2-rasterization/build/glfw/CMakeFiles/INSTALL.dir
+D:/Code/C++/cg-hw2-rasterization/build/glfw/CMakeFiles/ALL_BUILD.dir
+D:/Code/C++/cg-hw2-rasterization/build/glfw/src/CMakeFiles/glfw.dir
+D:/Code/C++/cg-hw2-rasterization/build/glfw/src/CMakeFiles/INSTALL.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/glewinfo.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/glew.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/glew_s.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/visualinfo.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/INSTALL.dir
+D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/ALL_BUILD.dir

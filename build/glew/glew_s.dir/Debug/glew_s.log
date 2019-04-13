@@ -1,0 +1,19 @@
+﻿生成启动时间为 2019/4/9 10:39:23。
+     1>项目“D:\Code\C++\cg-hw2-rasterization\build\glew\glew_s.vcxproj”在节点 4 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/Code/C++/ext/glew/build/cmake/CMakeLists.txt
+         CMake does not need to re-run because D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Code\C++\cg-hw2-rasterization\src" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\eigen" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glfw\include" /ID:\Code\C++\ext\glew\build\cmake\..\..\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D GLEW_STATIC /D VC_EXTRALEAN /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"glew_s.dir\Debug\\" /Fd"glew_s.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Code\C++\ext\glew\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_STATIC /D VC_EXTRALEAN /D GLEW_NO_GLU /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"D:\Code\C++\cg-hw2-rasterization\src" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\eigen" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glfw\include" /ID:\Code\C++\ext\glew\build\cmake\..\..\include /nologo /fo"glew_s.dir\Debug\glew.res" D:\Code\C++\ext\glew\build\glew.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\Code\C++\cg-hw2-rasterization\build\lib\Debug\libglew32d.lib" /NOLOGO  /machine:X86 glew_s.dir\Debug\glew.res
+         glew_s.dir\Debug\glew.obj
+         glew_s.vcxproj -> D:\Code\C++\cg-hw2-rasterization\build\lib\Debug\libglew32d.lib
+     1>已完成生成项目“D:\Code\C++\cg-hw2-rasterization\build\glew\glew_s.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.56

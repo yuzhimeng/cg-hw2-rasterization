@@ -1,0 +1,19 @@
+﻿生成启动时间为 2019/4/9 10:39:28。
+     1>项目“D:\Code\C++\cg-hw2-rasterization\build\glew\visualinfo.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Building Custom Rule D:/Code/C++/ext/glew/build/cmake/CMakeLists.txt
+         CMake does not need to re-run because D:/Code/C++/cg-hw2-rasterization/build/glew/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Code\C++\cg-hw2-rasterization\src" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\eigen" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glfw\include" /ID:\Code\C++\ext\glew\build\cmake\..\..\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"visualinfo.dir\Debug\\" /Fd"visualinfo.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Code\C++\ext\glew\src\visualinfo.c
+         visualinfo.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D GLEW_NO_GLU /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /I"D:\Code\C++\cg-hw2-rasterization\src" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\eigen" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glfw\include" /ID:\Code\C++\ext\glew\build\cmake\..\..\include /nologo /fo"visualinfo.dir\Debug\visualinfo.res" D:\Code\C++\ext\glew\build\visualinfo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\C++\cg-hw2-rasterization\build\visualinfo.exe" /INCREMENTAL /NOLOGO ..\lib\Debug\glew32d.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Code/C++/cg-hw2-rasterization/build/visualinfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Code/C++/cg-hw2-rasterization/build/lib/Debug/visualinfo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 visualinfo.dir\Debug\visualinfo.res
+         visualinfo.dir\Debug\visualinfo.obj
+         visualinfo.vcxproj -> D:\Code\C++\cg-hw2-rasterization\build\visualinfo.exe
+     1>已完成生成项目“D:\Code\C++\cg-hw2-rasterization\build\glew\visualinfo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.27

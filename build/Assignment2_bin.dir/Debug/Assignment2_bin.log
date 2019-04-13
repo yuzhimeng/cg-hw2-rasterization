@@ -1,0 +1,15 @@
+﻿生成启动时间为 2019/4/13 22:33:23。
+     1>项目“D:\Code\C++\cg-hw2-rasterization\build\Assignment2_bin.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Code\C++\cg-hw2-rasterization\src" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\eigen" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glfw\include" /I"D:\Code\C++\cg-hw2-rasterization\..\ext\glew\include" /ID:\Code\C++\ext\glfw\include /Zi /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Assignment2_bin.dir\Debug\\" /Fd"Assignment2_bin.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /bigobj "D:\Code\C++\cg-hw2-rasterization\src\main.cpp"
+         main.cpp
+     1>D:\Code\C++\cg-hw2-rasterization\src\main.cpp(42): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\C++\cg-hw2-rasterization\build\Assignment2_bin.exe" /INCREMENTAL /NOLOGO Debug\glfw3.lib lib\Debug\libglew32d.lib opengl32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Code/C++/cg-hw2-rasterization/build/Assignment2_bin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Code/C++/cg-hw2-rasterization/build/Debug/Assignment2_bin.lib" /MACHINE:X86 /SAFESEH  /machine:X86 Assignment2_bin.dir\Debug\Helpers.obj
+         Assignment2_bin.dir\Debug\main.obj
+         Assignment2_bin.vcxproj -> D:\Code\C++\cg-hw2-rasterization\build\Assignment2_bin.exe
+     1>已完成生成项目“D:\Code\C++\cg-hw2-rasterization\build\Assignment2_bin.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.32
