@@ -28,7 +28,7 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
     // Get the position of the mouse in the window
     double xpos, ypos;
     glfwGetCursorPos(window, &xpos, &ypos);
-
+	printf("(%ld,%ld)\n", xpos, ypos);
     // Get the size of the window
     int width, height;
     glfwGetWindowSize(window, &width, &height);
@@ -50,6 +50,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     // Update the position of the first vertex if the keys 1,2, or 3 are pressed
     switch (key)
     {
+		printf("%d", key);
         case  GLFW_KEY_1:
             V.col(0) << -0.5,  0.5;
             break;
